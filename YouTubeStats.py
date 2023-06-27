@@ -191,6 +191,8 @@ class YouTubeStats:
         durations = []
         tags_list = []
         
+        info = 0
+        
         if self.video_stats is not None:
             info = self.get_channel_videos()
             
