@@ -193,7 +193,7 @@ class YouTubeStats:
         
         info = 0
         
-        if self.video_stats is not None:
+        if self.video_stats is None:
             info = self.get_channel_videos()
             
         else:
